@@ -50,7 +50,6 @@ print(update_setting({'theme': 'light'}, ('theme', 'dark')))
 print(update_setting({'theme': 'light'}, ('volume', 'high')))
 
 print('---------')
-```
 
 print(delete_setting({'theme': 'light'}, 'theme'))
 print(delete_setting({'theme': 'light'}, ''))
@@ -58,3 +57,4 @@ print(delete_setting({'theme': 'light'}, ''))
 print('---------')
 
 print(view_settings({'theme': 'dark', 'notifications': 'enabled', 'volume': 'high'}))
+```
