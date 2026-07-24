@@ -1,6 +1,7 @@
 # Administrador-de-gestor-de-usuario
 Este código es un gestor de configuraciones de usuario que permite agregar, actualizar, eliminar y visualizar ajustes de preferencias almacenados en un diccionario, garantizando que no haya duplicados y normalizando siempre los datos a minúsculas.
 
+```python
 test_settings = {'theme': 'LIGHT', 'notifications': 'enabled', 'volume': 'high'}
 
 def add_setting(dict, tuple):
@@ -49,6 +50,7 @@ print(update_setting({'theme': 'light'}, ('theme', 'dark')))
 print(update_setting({'theme': 'light'}, ('volume', 'high')))
 
 print('---------')
+```
 
 print(delete_setting({'theme': 'light'}, 'theme'))
 print(delete_setting({'theme': 'light'}, ''))
